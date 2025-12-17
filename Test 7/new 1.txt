@@ -1,0 +1,2 @@
+//intialize git repo
+git init
