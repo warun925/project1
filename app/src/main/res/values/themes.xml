@@ -1,0 +1,8 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Test7" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@android:color/holo_blue_light</item>
+        <item name="colorPrimaryVariant">@android:color/holo_blue_light</item>
+        <item name="colorOnPrimary">@color/white</item>
+    </style>
+</resources>
