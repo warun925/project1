@@ -50,7 +50,7 @@ public class LoginActivity extends AppCompatActivity {
         // Initialize Retrofit
         // REMEMBER: Use 10.0.2.2 for Emulator, or your IP (e.g., 192.168.1.5) for physical phone
         Retrofit retrofit = new Retrofit.Builder()
-                .baseUrl("http://10.48.36.140:8080/")
+                .baseUrl("http://172.21.212.121:8080/")
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();
 

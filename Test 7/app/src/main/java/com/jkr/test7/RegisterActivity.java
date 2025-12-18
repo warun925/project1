@@ -34,7 +34,7 @@ public class RegisterActivity extends AppCompatActivity {
         tvLoginLink = findViewById(R.id.tvLoginLink);
 
         Retrofit retrofit = new Retrofit.Builder()
-                .baseUrl("http://10.48.36.140:8080/")
+                .baseUrl("http://172.21.212.121:8080/")
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();
         apiService = retrofit.create(ApiService.class);
